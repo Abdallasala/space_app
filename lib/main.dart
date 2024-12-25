@@ -16,17 +16,16 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-     //initialRoute: LoginScreen.loginname,
-      initialRoute:HomeScreen.routename,
+    //initialRoute: LoginScreen.loginname,
+      initialRoute: Planetdetails.planet_details_name,
     routes: {
       LoginScreen.loginname:(context) =>LoginScreen(),
 
-      HomeScreen.routename:(_){
+      HomeScreen.routename:(context){
         return HomeScreen();
       },
       Planetdetails.planet_details_name:(context) =>Planetdetails(),
     },
-
      darkTheme:ThemeData(
        brightness: Brightness.dark
      ) ,

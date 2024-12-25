@@ -4,7 +4,7 @@ import 'package:space_app/core/theme/app_color.dart';
 import 'package:space_app/feature/home/pages/home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
-  static String loginname ='login_name';
+  static const  loginname ='/login';
   const LoginScreen({super.key});
 
   @override
@@ -68,7 +68,7 @@ class LoginScreen extends StatelessWidget {
                 ),
               ),
             ),
-          )
+          ),
         ],
       ),
     );
